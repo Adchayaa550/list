@@ -1,0 +1,10 @@
+h2{
+    color: rgb(17, 4, 4);
+    background-color: aqua;
+   text-shadow: rgb(240, 138, 23);
+}
+img {
+    display: block;
+    width: 400px;
+    height: 400px;
+}
