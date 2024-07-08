@@ -1,0 +1,101 @@
+
+.gradient{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    animation: blink 3s infinite;
+}
+body{
+    background-color:rgb(161, 145, 159),lightgreen,aqua , rgb(36, 68, 56), rgb(189, 122, 166),rgb(202, 137, 137);
+    width: full;
+    height: 1000px;
+}
+@keyframes blink{
+    0%{
+        background: rgb(161, 145, 159);
+    }
+    20%{
+        background: lightgreen;
+    }
+    40%{
+        background: aqua;
+    }
+    60%{
+        background: rgb(36, 68, 56);
+    }
+    80%{
+        background-color: rgb(189, 122, 166);
+    }
+    100%{
+        background: rgb(202, 137, 137);
+    }
+}
+.emoji{
+    position:relative;
+    height:200px;
+    width:200px;
+    background: linear-gradient(to right top,rgb(253, 218, 54),rgb(253, 218, 54),rgb(244,173,22));
+    margin: 20px auto;
+    border-radius: 50%;
+    top:100px;
+}
+.eye1{
+    position: absolute;
+    width:38px;
+    height:40px;
+    background: whitesmoke;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 50%;
+    top:45px;
+    left:40px
+}
+
+.eye2{
+    position: absolute;
+    width:38px;
+    height:40px;
+    background: whitesmoke;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 50%;
+    top:45px;
+    right:40px;
+}
+.m{
+    width:20px;
+    height:20px;
+    background: black;
+    border-radius: 50%;
+    margin:auto;
+    animation: anim1 3s infinite;
+}
+@keyframes anim1{
+    to{
+        transform:translatey(10px);
+    }
+}
+.mouth{
+    position: absolute;
+    bottom: 45px;
+    left:70px;
+    width:60px;
+    height:8px;
+    background:rgb(224, 119, 119);
+    border-radius: 10px;
+    animation: anim2 3s infinite;
+}
+@keyframes anim2{
+    to{
+        bottom:30px;
+        height:32px;
+        border-radius:0 0 50px 50px ;
+    }
+    body {
+        margin: 0;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: black;
+    }
+}
